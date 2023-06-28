@@ -1,0 +1,49 @@
+body {
+    background: #272343;  /* Dark blue background for contrast */
+    color: #BAE8E8;  /* Light blue for readable text */
+    font-family: 'Roboto', sans-serif;  /* Roboto font for clean typography */
+    padding: 30px;  /* Padding around the edges of the page */
+}
+
+.todo-input, .date-picker {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;  /* Rounded edges for a softer look */
+    margin-bottom: 20px;  /* Space between input fields and the button */
+    width: 300px;  /* Fixed width to match the button */
+    color: #272343;  /* Text color contrast with input field color */
+    background-color: #BAE8E8;  /* Light blue for a futuristic look */
+}
+
+#add-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #BAE8E8;
+    color: #272343;
+    font-size: 1em;
+    cursor: pointer;
+    width: 300px;  /* Matching width with the input fields */
+}
+
+.todo-list {
+    list-style-type: none;  /* Removing bullets from the list */
+}
+
+.todo-list div {
+    background: #BAE8E8;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #272343;
+}
+
+.todo-list div button {
+    background: #FF7F7F;  /* Red color to signify delete */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    float: right;  /* Positioned to the right */
+}

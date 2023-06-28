@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>My JavaScript (MVC) Todo App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <input id="todo-title" class="todo-input" type="text" />
+        <input id="date-picker" class="date-picker" type="date" />
+        <button id="add-button" onclick="addTodo()">Add Todo</button>
+        <br /><br />
+        <div id="todo-list" class="todo-list"></div>
+
+        <script type="text/javascript" src="Model.js"></script>
+        <script type="text/javascript" src="View.js"></script>
+        <script type="text/javascript" src="Controller.js"></script>
+        <script type="text/javascript">
+            render();
+        </script>
+    </body>
+ </html>
